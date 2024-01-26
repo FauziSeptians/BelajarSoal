@@ -4,6 +4,5 @@ const reverseSeq = n => {
     for (let i = n; i >= 1 ; i--){
       data.push(i);
     }
-    
     return data;
   };
