@@ -7,8 +7,6 @@ var lengthOfLastWord = function(s) {
    let count = 0;
 
    for(let i = lengthString; i >= 0 ; i--){
-    console.log(s[i + 1] !== " " && s[i] === " ")
-    console.log(lengthString);
     if(s[i + 1] !== " " && s[i] === " " && i !== lengthString) break;
     if(s[i] !== " ") count++;
    }
